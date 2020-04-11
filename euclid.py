@@ -1,4 +1,4 @@
-# part1
+# Method1
 lst = []
 for x in range(1, 21):
     if 8 % x == 0 and 20 % x == 0:
@@ -6,7 +6,7 @@ for x in range(1, 21):
 print(max(lst))
 
 
-# part2
+# Method2
 def gcd(a, b):
     while (b != 0):
         t = a
